@@ -1,0 +1,420 @@
+/* loading custom fonts */
+
+@font-face {
+	font-family: ProximaNova;
+	src: url("../fonts/ProximaNova.woff");
+}
+
+@font-face {
+	font-family: ProximaNovaBold;
+	src: url("../fonts/ProximaNovaBold.woff2");
+}
+@font-face {
+	font-family: ProximaNovaThin;
+	src: url("../fonts/ProximaNovaThin.woff");
+}
+@font-face {
+	font-family: Bebas;
+	src: url("../fonts/BebasNeueBold.ttf");
+}
+
+/* main styles */
+
+body {
+	background-color: #F4F6F7;
+	font-family: ProximaNova;
+	font-size: 20px;
+	line-height: 32px;
+	color: #333;
+}
+a {
+	color: #578BCC;
+	font-family: ProximaNova;
+}
+a:hover {
+	color: #578BCC;
+	text-decoration: underline;
+}
+p {
+	margin-bottom: 2rem;
+}
+.col-md-8 {
+	max-width: 1000px;
+}
+.col-md-6 {
+	max-width: 740px;
+}
+/* top menu */
+
+.top-menu {
+	height: 60px;
+	background-color: #293340;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top-menu a, .footer a {
+	color: #F3F5F6;
+	font-size: 0.8em;
+}
+.top-menu a:hover, .footer a:hover {
+	text-decoration: underline;
+}
+.menu-items {
+	list-style-type: none;
+	margin: 0px;
+	text-align: right;
+}
+.menu-items li:first-child {
+	float: left;
+	margin:0px;
+	padding: 0px;
+}
+.menu-items li {
+	display: inline-block;
+	list-style-type: none;
+	color: #fff;
+	float: none;
+	margin: 0px 0px 0px 50px;
+}
+
+/* header styles */
+
+.header {
+	background-color: #fff;
+	align-items: center;
+	padding: 0px;
+	height:calc(100vh - 60px);
+	text-align: center;
+
+}
+.header.first {
+	background-color: #293340;
+}
+
+.hero {
+	color: #F3F5F6;
+	text-align: center;
+}
+.hero h1 {
+	font-size: 3.2em;
+	margin-bottom: 32px;
+	font-family: Bebas;
+}
+.hero h2 {
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+
+.hand-icon {
+	font-size: 2em;
+	margin-top: 32px;
+}
+
+.introduction {
+	color: #535353;
+}
+
+.introduction h1 {
+	font-family: Bebas;
+	font-size: 3.2em;
+	margin-bottom: 14px;
+}
+.introduction h2 {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	margin-top: 40px;
+}
+.introduction p {
+	border-top: 1px solid #ededed;
+	font-family: ProximaNovaThin;
+	padding-top: 14px;
+	margin: 0px;
+}
+/* project styles */
+
+.favorite-projects {
+	margin: 64px auto;
+}
+.favorite-projects h2 {
+	font-size: 1em;
+	width:100%; 
+	border-bottom: 1px solid #d5d5d5; 
+	line-height:0.1em; 
+	margin-bottom: 24px;
+	color: #535353;
+}
+.favorite-projects h2 span { 
+	background:#F4F6F7; 
+	padding:0 20px 0 0; 
+}
+.project-card {
+	background-color: #fff;
+	height: 320px;
+	margin: 40px 0px;
+	display: flex;
+	justify-content: center;
+	padding: 32px;
+	transition: box-shadow 0.5s ease-in-out;
+}
+.project-card:hover {
+	-webkit-box-shadow: 1px 1px 32px 1px rgba(0,0,0,0.09);
+	-moz-box-shadow: 1px 1px 32px 1px rgba(0,0,0,0.09);
+	box-shadow: 1px 1px 32px 1px rgba(0,0,0,0.09);
+	cursor: pointer;
+}
+.project-card h1 {
+	font-family: Bebas;
+	font-size: 1.8em;
+}
+.project-card img {
+	object-fit: cover;
+	padding: 0px;
+}
+.description {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 24px;
+}
+.description p:last-child {
+	margin-bottom: 0px;
+}
+/* content styles */
+.content-holder {
+	background-color: #fff;
+}
+.img-small {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.img-small img {
+	margin: 32px auto 0px auto;
+}
+.img-large img {
+	max-width: 100%;
+	margin-top: 32px;
+	max-height: auto;
+}
+img.shadow {
+	-webkit-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.14);
+	-moz-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.14);
+	box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.14);
+}
+img.margin-right {
+	margin-right: 64px;
+}
+.outer {
+	padding: 104px 0px 104px 0px;
+}
+.outer.colored {
+	background-color: #F4F6F7;
+	margin: 0px -15px 0px -15px;
+	padding: 104px 0px 104px 0px;
+}
+.content h3 {
+	font-family: Bebas;
+	font-size: 2.2em;
+	margin: 24px 0px 32px 0px;
+}
+.content h4 {
+	font-family: Bebas;
+	font-size: 1.8em;
+	margin: 124px 0px 32px 0px;
+}
+.content h5 {
+	font-family: Bebas;
+	padding: 25px 0px 0px 0px;
+}
+.content ul, .content ul  li {
+	list-style-type: none;
+	padding: 6px 0px;
+	margin: 0px;
+}
+.content ul li:before {
+	content:  '\2014';
+	padding: 0px 5px;
+}
+.outer.colored.next-project {
+	font-size: 0.8em;
+	border-top: 1px solid #eee;
+	padding: 40px 0px;
+}
+.next-project > div {
+	align-items: center;
+}
+/* blockqoute styles */
+
+blockquote{
+	font-size: 1.4em;
+	margin:72px auto;
+	font-style:italic;
+	padding:1.2em 30px 1.2em 75px;
+	border-left:8px solid #1A1E23;
+	position: relative;
+	width: 90%;
+}
+
+blockquote::before{
+
+	content: "\201C";
+	color:#1A1E23;
+	font-size:4em;
+	position: absolute;
+	left: 10px;
+}
+
+blockquote::after{
+	content: '';
+}
+
+blockquote span{
+	display:block;
+	color:#333333;
+	font-style: normal;
+	font-weight: bold;
+	margin-top:1em;
+}
+
+.contact {
+	margin-top: 40px;	
+}
+.contact h3 {
+	font-size: 1em;
+	font-family: ProximaNovaThin;
+}
+.contact h3 div {
+	font-size: 2em;
+}
+/* modal styles */ 
+.modal-dialog {
+	max-width: 700px;
+}
+.modal-dialog h5 {
+	padding: 0px;
+	font-family: ProximaNova;
+}
+
+/* footer styles */
+
+.footer {
+	height: 60px;
+	background-color: #293340;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* fade in and slide in animation on page load */
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes slideIn { from { opacity:0; right:-1000; } to { opacity:1; right:0px; top: 0px; } }
+@-moz-keyframes slideIn { from { opacity:0; right:-1000; } to { opacity:1; right:0px; top: 0px;  } }
+@keyframes slideIn {from { opacity:0; right:-1000; } to { opacity:1; right:0px; top: 0px;  } }
+
+.slide-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:slideIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:slideIn ease-in 1;
+	animation:slideIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+	position:absolute;
+	right:-1000px;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.fade-in.two {
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay:0.7s;
+	animation-delay: 0.7s;
+}
+
+.fade-in.three {
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay:1.2s;
+	animation-delay: 1.2s;
+}
+
+/* media queries */
+@media only screen and (max-width: 1024px) {
+	.project-card {
+		height: auto;
+		display: block;
+	}
+	.project-card img {
+		max-height: 300px;
+		margin-bottom: 24px;
+	}
+	.project-card img, .project-card .description {
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	body {
+	font-size: 18px;
+	}
+	.outer.colored, .outer {
+		padding: 64px 0px;
+	}
+	.menu-items li {
+		margin: 0px 0px 0px 20px;
+	}
+	.project-card {
+		padding: 0px 0px 20px 0px;
+	}
+	.introduction h1, .hero h1 {
+		font-size: 2.8em;
+	}
+	.introduction h2, .hero h2 {
+		font-size: 1em;
+	}
+	.content h4 {
+		margin: 64px 0px 24px 0px;
+	}
+	.image-holder {
+		padding: 0px;
+	}
+	.img-small {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	img.margin-right {
+		margin: 0 auto;
+		display: block;
+	}
+	.next-project .row, .favorite-projects .col-md-8 {
+		padding: 0px;
+		margin: 0px;
+	}
+}
