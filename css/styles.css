@@ -286,6 +286,9 @@ blockquote span{
 .contact h3 div {
 	font-size: 2em;
 }
+.contact h3 img {
+	margin: 10px 0px 5px 0px;
+}
 /* modal styles */ 
 .modal-dialog {
 	max-width: 700px;
