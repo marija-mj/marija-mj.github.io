@@ -2,34 +2,42 @@
 
 @font-face {
 	font-family: ProximaNova;
-	src: url("../fonts/ProximaNova.woff");
+	src: url("../fonts/ProximaNova.woff2") format('woff2'),
+		 url("../fonts/ProximaNova.woff") format('woff'),
+		 url("../fonts/ProximaNova.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: ProximaNovaBold;
-	src: url("../fonts/ProximaNovaBold.woff2");
+	src: url("../fonts/ProximaNovaBold.woff2") format('woff2'),
+		 url("../fonts/ProximaNovaBold.woff") format('woff'),
+		 url("../fonts/ProximaNovaBold.ttf") format('truetype');
 }
 @font-face {
 	font-family: ProximaNovaThin;
-	src: url("../fonts/ProximaNovaThin.woff");
+	src: url("../fonts/ProximaNovaThin.woff2") format('woff2'),
+		 url("../fonts/ProximaNovaThin.woff") format('woff'),
+		 url("../fonts/ProximaNovaThin.ttf") format('truetype');
 }
 @font-face {
 	font-family: Bebas;
-	src: url("../fonts/BebasNeueBold.ttf");
+	src: url("../fonts/BebasNeueBold.woff2") format('woff2'),
+		 url("../fonts/BebasNeueBold.woff") format('woff'),
+		 url("../fonts/BebasNeueBold.ttf") format('truetype');
 }
 
 /* main styles */
 
 body {
 	background-color: #F4F6F7;
-	font-family: ProximaNova;
+	font-family: ProximaNova, "Lucida Grande", Tahoma, Sans-Serif;
 	font-size: 20px;
 	line-height: 32px;
 	color: #333;
 }
 a {
 	color: #578BCC;
-	font-family: ProximaNova;
+	font-family: ProximaNova, "Lucida Grande", Tahoma, Sans-Serif;
 }
 a:hover {
 	color: #578BCC;
@@ -99,7 +107,7 @@ p {
 .hero h1 {
 	font-size: 3.2em;
 	margin-bottom: 32px;
-	font-family: Bebas;
+	font-family: Bebas, "Lucida Grande", Tahoma, Sans-Serif;
 }
 .hero h2 {
 	font-size: 1.2em;
@@ -116,7 +124,7 @@ p {
 }
 
 .introduction h1 {
-	font-family: Bebas;
+	font-family: Bebas, "Lucida Grande", Tahoma, Sans-Serif;
 	font-size: 3.2em;
 	margin-bottom: 14px;
 }
@@ -127,7 +135,7 @@ p {
 }
 .introduction p {
 	border-top: 1px solid #ededed;
-	font-family: ProximaNovaThin;
+	font-family: ProximaNovaThin, "Lucida Grande", Tahoma, Sans-Serif;
 	padding-top: 14px;
 	margin: 0px;
 }
@@ -164,7 +172,7 @@ p {
 	cursor: pointer;
 }
 .project-card h1 {
-	font-family: Bebas;
+	font-family: Bebas, "Lucida Grande", Tahoma, Sans-Serif;
 	font-size: 1.8em;
 }
 .project-card img {
@@ -213,17 +221,17 @@ img.margin-right {
 	padding: 104px 0px 104px 0px;
 }
 .content h3 {
-	font-family: Bebas;
+	font-family: Bebas, "Lucida Grande", Tahoma, Sans-Serif;
 	font-size: 2.2em;
 	margin: 24px 0px 32px 0px;
 }
 .content h4 {
-	font-family: Bebas;
+	font-family: Bebas, "Lucida Grande", Tahoma, Sans-Serif;
 	font-size: 1.8em;
 	margin: 124px 0px 32px 0px;
 }
 .content h5 {
-	font-family: Bebas;
+	font-family: Bebas, "Lucida Grande", Tahoma, Sans-Serif;
 	padding: 25px 0px 0px 0px;
 }
 .content ul, .content ul  li {
@@ -281,7 +289,7 @@ blockquote span{
 }
 .contact h3 {
 	font-size: 1em;
-	font-family: ProximaNovaThin;
+	font-family: ProximaNovaThin, "Lucida Grande", Tahoma, Sans-Serif;
 }
 .contact h3 div {
 	font-size: 2em;
@@ -295,7 +303,7 @@ blockquote span{
 }
 .modal-dialog h5 {
 	padding: 0px;
-	font-family: ProximaNova;
+	font-family: ProximaNova, "Lucida Grande", Tahoma, Sans-Serif;
 }
 
 /* footer styles */
