@@ -84,7 +84,7 @@ p {
 	background-color: #fff;
 	align-items: center;
 	padding: 0px;
-	height:calc(100vh - 60px);
+	min-height:calc(100vh - 60px);
 	text-align: center;
 
 }
@@ -401,6 +401,9 @@ blockquote span{
 	}
 	.introduction h2, .hero h2 {
 		font-size: 1em;
+	}
+	.content h3 {
+		margin: 16px 0px 32px 0px;
 	}
 	.content h4 {
 		margin: 64px 0px 24px 0px;
