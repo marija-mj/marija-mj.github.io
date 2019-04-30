@@ -289,6 +289,7 @@ blockquote span{
 .contact h3 {
 	font-size: 1em;
 	font-family: ProximaNovaThin, "Lucida Grande", Tahoma, Sans-Serif;
+	word-wrap: break-word;
 }
 .contact h3 div {
 	font-size: 2em;
