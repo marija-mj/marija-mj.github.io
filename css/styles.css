@@ -107,7 +107,7 @@ p {
 
 .header.header-contact {
 	background-color: #402933;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 80px);
 }
 
 .header.header-about {
