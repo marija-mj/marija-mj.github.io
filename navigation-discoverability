@@ -1,0 +1,243 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120225309-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120225309-1');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1, shrink-to-fit=no" /><!-- Bootstrap CSS -->
+  <link rel="stylesheet" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity=
+  "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin=
+  "anonymous" type="text/css" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+  <title>Navigation and Discoverability - UX design portfolio of Marija Jovic </title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="top-menu row fade-in">
+      <div class="col-md-8">
+        <ul class="menu-items clearfix col-md-12">
+          <li><a href="index.html">MJ</a></li>
+
+          <li><a href="projects.html">Projects</a></li>
+
+          <li><a href="about-me.html">About</a></li>
+
+          <li><a href="contact-me.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header colored outer project row justify-content-md-center">
+      <div class="col-md-6 introduction fade-in one">
+        <div class="col-md-12">
+          <h1>Navigation and Discoverability</h1>
+
+          <p><span>CloudWatch (AWS), year 2021</span></p>
+
+          <h2>Fixing navigation issues and improving discoverability in a tool with many different sub-services</h2>
+          <br />
+
+        </div>
+                     <div class="col-md-12">
+            <img src="img/training-cards.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <div class="content row fade-in two justify-content-md-center">
+      <div class="content-holder col-md-12">
+        <div class="outer row justify-content-md-center">
+          <div class="col-md-6">
+            <h5>The challenge</h5>
+
+            <h3>Marketing tool or a navigation system</h3>
+
+            <p>CloudWatch is a product used by DevOps engineers to monitor their applications. Over the course of the years the tool has been growing in size and more and more products have been added to it without a clear plan. All additional products and sub products have been added to the left navigation menu for visibility as the most successful way to advertise a new feature was by putting in the navigation and struggling to get the item above the fold. This doubled the size of the navigation and made it really difficult for users to find what they were looking for.</p>
+
+            <p>There were three big challenges we faced:</p>
+
+            <ul>
+              <li>Creating an IA that works well for the customers but also stays in line with the business strategy</li>
+
+            <li>Work across the product org with many different stakeholders who see their service as the most important one</li>
+              
+            <li>Unify the offering so that each sub-service doesn't feel like it was part of a different product</li>
+            <h4>My Role</h4>
+
+            <ul>
+              <li>proposing the initiative and getting the capacity for the UX team (4 UX designers) </li>
+
+              <li>driving the initiative and organizing the workload among the team</li>
+
+              <li>performing research and putting together research reports</li>
+
+              <li>facilitating brainstorming sessions</li>
+
+              <li>getting the stakeholder buy-in</li>
+              
+              <li>organizing and managing the timelines by bringing together 7 different product teams </li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="outer colored row justify-content-md-center">
+          <div class="col-md-6">
+            <h5>The approach</h5>
+
+            <h3>Convince the stakeholders</h3>
+
+            <p>When I joined CloudWatch after going through past research, reading through customer feedback and talking with the stakeholders I noticed that navigation was a big pain point - both for customers and the stakeholders. Customers were finding it hard to navigate through CloudWatch and understand all the different offerings as they were not logically grouped and stakeholders knew this was a problem but didn't have any strategy in place to address it.</p>
+                 <p>
+              I collected the data that was already available and put together a plan which I shared  with stakeholders including capacity needed for the UX team to tackle this problem and  understand better where the problem is and come up with a proposal. After getting their buy in and approval it was time to deep dive.</p>
+          </div>
+          <div class="row col-md-12"></div>
+          <div class="img-small">
+           
+           <img class="img-fluid" src="img/training-slides.jpg" />
+           <p class="image-caption">visual representation of design thinking process</p>
+         </div>
+         <div class="row col-md-12"></div>
+         <div class="col-md-6">
+          <h4>Define research tasks and organize the team</h4>
+            <p> 
+                From customer feedback we knew that navigation menu was only one part of the problem so we needed to understand what else affects discoverability and focus on fixing those issues. Going through past research I realized we had some crucial gaps in our knowledge which we needed to fill in before we could proceed. Based on what we had and what was missing, I identified several research tasks we needed to perform in order to kick off the discovery phase.
+             </p>
+             <p>
+              <h5>User journey and archetypes</h5>
+                <p>
+                This was one of the areas I thought we had defined already but all the information we had was outdated so we needed to get back to the drawing board and do it fast. I proposed to do guerrilla research to spend less time and only define the most essential user journey steps with pain points and most common archetypes so we stay within the allocated timeframes. I split the work load among the team so I focused on creating archetypes by talking with stakeholders and some internal customers, but relying a lot on past research and global AWS archetypes we had defined already. I did several workshops with internal customers and stakeholders to map out the user journey and then the team took over to validate each part with some more customers to finalize it. 
+                </p>
+                <h5>Navigation survey</h5>
+             <p>
+                This one came up as a necessity a bit later - after maping out the user journey it became obvious that a lot of discoverability problems happen not only because navigation was poor, but also because the products were not being connected well enough. This was new learning for us and we wanted to qunatify those findigins and understand better what were the most important problems when it comes to navigation and discoverability in general. I created a survey to collect some quick data and it turned out that the menu was still the biggest pain points but corellation was another one and this one we overlooked completely.
+                </p>
+                  <h5>Card sorting - qualitative and quantitative</h5>
+             <p>
+                For the navigation itself we needed to understand what could be improved to and how to group different offerings together. But doing just the quantitative card sorting wouldn't give us enough information as we needed to understand the "why" behind it. In order to come up with the menu items first we broke apart the entire console into several different tasks and asked the users to group them in moderated sessions. We then used those groups to create new menu items to and I created an unmoderated card sorting test to gather more quantitave data.
+                </p>
+        </div>
+                            <div class="col-md-12 image-holder">
+          <div class="img-small"><img class="img-fluid" src="img/training-card.jpg" /><p class="image-caption">outcomes of "understand" & "explore": problem statement, journey map, big ideas </p></div></div>
+            <div class="row col-md-12"></div>
+             <div class="col-md-6">
+          <h4>Synthesize and share the results to get visibility</h4>
+          <p>I was responsible for synthesizing the results from all the different research initiatives. Each designer shared with me their reports and I opened a spreadsheet and started sorting out all the results into several common themes. This is when it became even more obvious that navigation was only one small part of the problem and users were struggling with many more things (from overwhelming UI, to no customization).
+          </p>
+          <p>
+          I ended up identifying 5 buckets of pain points with only one of them being Information Architecture, which was what we initially wanted to address. Even though I wanted us to stay focused on the IA I also saw a great opportunity to influence the future roadmap with newly discovered pain points. I did several presentations with different groups of stakeholders to show what we learned and to announce the plan and get them excited about participating in brainstorming sessions which I wanted to do next. At this point, we needed to explore different solutions and diverge.
+          </p>
+                  </div>
+            <div class="col-md-12 image-holder">
+                <div class="img-small"><img class="img-fluid" src="img/training-workshop.jpg" />
+                <p class="image-caption">planning a three day workshop with design thinking cards</p></div></div>
+
+    <div class="row col-md-12"></div>
+          <div class="col-md-6">
+            <h4>Brainstorming and roadmap</h4>
+
+            <p> 
+                I orginized several brainsotmring sessions with the stakeholders to generate a lot of ideas for each of the buckets and then decide which buckets we want to focus on first. In order to narrow down the ideas we voted first and then prioritized the top voted ideas based on impact and feasibilty. Some of our ideas were so big that they needed a separate content plan item, but some could be squeezed into the same release.
+                </p>
+                <p>
+                We wanted to do a little bit from each bucket for our MVP so I created a user story map to split ideas into releases to create a roadmap - in this stage, I worked closely with development team to understand the timelines and effort needed. I continued conversations about IA and the rest of the team started working on designs for other ideas.
+                </p>
+                <p>
+                IA was the most complex one as we needed to align with product and leadership to take product strategy into account. After several difficult conversation and many changes to the initial proposal I finally got the sign off for the IA and we were ready for development.
+                </p>
+                
+
+          </div>
+            <div class="col-md-12 image-holder">
+                <div class="img-small"><img class="img-fluid" src="img/training-feedback.jpg" />
+                <p class="image-caption">feedback captured after the training</p></div></div>
+                </div>
+                
+           <div class="row col-md-12"></div>
+          <div class="col-md-6">
+            <h4>Managing teams to deliver on time</h4>
+
+            <p> 
+             I acted as PM on this project so I was responsible for the timelines and making sure the teams make changes to their product areas at the same time so we can release everything together. This involved 7 product and development teams. I had tasks and timelines in the doc for each team and even though, by then, most of them were familiar with what we were trying to do, there were still some questions and concerns being raised. So I took a step back and did a couple of more sharing sessions including those stakeholders to ensure them that our plan was well tested and we got all the necessary approvals.
+             </p>
+                
+
+          </div>
+
+        <div class="outer row justify-content-md-center">
+          <div class="col-md-6">
+            <h5>Final results</h5>
+
+            <h3>Compact navigation, happy customers</h3>
+
+            <p>...</p>
+            <ul>
+            <li>We managed to reduce the height of the navigation by 50% </li>
+<li>With the improvements we made to the logic (to remember which buckets were expanded vs collapsed) 80% of our customers were now seeing links to all the services they use above the fold </li>
+<li> We reduced the number of landing pages from 6 to one global landing page for the entire CloudWatch </li>
+<li> We made favourites more accessible by putting them at the top and separating them from the menu and enriching them with recently visited for quick access to most commonly used services</li>
+<li> We had a road map of additional changes which impacted our next quarter planning </li>
+            </ul>
+            <h4>Key Learnings and Takeaways</h4>
+
+            <p>
+                This was a very challenging project due to complexity and number of stakeholders involved, but I definitely learned a lot:
+              </p>
+                <ul>
+                 <li> involve leadership early </li>
+ <li> work together with stakeholders to show them their opinions matter  </li>
+ <li> have separate conversations with difficult stakeholders  </li>
+ <li> use quantitative data together with qualitative and always involve external customers in research  </li>
+ <li> focus on what's feasible and be flexible  </li>
+                </ul>
+          </div>
+        </div>
+        <div class="outer colored next-project justify-content-md-center row">
+          <div class="row col-md-8">
+            <div class="col-md-6"><span><strong>Up next:</strong> Challenges with creating a product form scratch with the help of personas and user journey maps.</span></div>
+            <div class="text-right col-md-6"><a href="clm.html">Contract Life Cycle Management (CLM) &nbsp;&#8594;</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer row">
+      <div class="col-md-8">
+        <ul class="menu-items clearfix col-md-12">
+          <li><a href="index.html">MJ</a></li>
+
+          <li><a href="projects.html">Projects</a></li>
+
+          <li><a href="about-me.html">About</a></li>
+
+          <li><a href="contact-me.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity=
+  "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin=
+  "anonymous" type="text/javascript">
+</script><script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity=
+"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin=
+"anonymous" type="text/javascript">
+</script><script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity=
+"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin=
+"anonymous" type="text/javascript">
+</script>
+</body>
+</html>
