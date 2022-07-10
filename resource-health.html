@@ -1,0 +1,228 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120225309-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120225309-1');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1, shrink-to-fit=no" /><!-- Bootstrap CSS -->
+  <link rel="stylesheet" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity=
+  "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin=
+  "anonymous" type="text/css" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+  <title>Resource Health - UX design portfolio of Marija Jovic </title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="top-menu row fade-in">
+      <div class="col-md-8">
+        <ul class="menu-items clearfix col-md-12">
+          <li><a href="index.html">MJ</a></li>
+
+          <li><a href="projects.html">Projects</a></li>
+
+          <li><a href="about-me.html">About</a></li>
+
+          <li><a href="contact-me.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header colored outer project row justify-content-md-center">
+      <div class="col-md-6 introduction fade-in one">
+        <div class="col-md-12">
+          <h1>Resource Health</h1>
+
+          <p><span>CloudWatch (AWS), year 2021</span></p>
+
+          <h2>Creating a service that allows the user to monitor the health of all their resources on a single page</h2>
+          <br />
+
+        </div>
+                     <div class="col-md-12">
+            <img src="img/cw-menu.png" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <div class="content row fade-in two justify-content-md-center">
+      <div class="content-holder col-md-12">
+        <div class="outer row justify-content-md-center">
+          <div class="col-md-6">
+            <h5>The challenge</h5>
+
+            <h3>Understanding the real user need</h3>
+
+            <p>CloudWatch is a product used by DevOps engineers to monitor their applications. The most important aspect of monitoring is having an overview on the health of multiple resources on a single page and being able to slice and dice that information before identifying and deep diving into a particular resource that is having an issue. Product team recognized that this high level overview was missing from CloudWatch since a similar solution was recently released in one of the competitor tools and was getting traction. We wanted to focus on EC2 instances first and then slowly add more resources. The PM requirement was to "copy" the competitor tool and make the same experience available in CloudWatch without doing any deep dive to understand specific use cases of our customers. Instead of starting from the customer problem their idea was to start from the solution. I highlighted this gap in order to get more time to perform research first before investing development time to build something that our customers might not find that useful. I have been advocating for a while about the importance of following the UX process so the team was easy to convince, but the PM didn't have any capacity to help out so I was given the ownership of the project. My idea was to learn as much as I can about our customer expectations first before getting into the design.</p>
+
+            <p>There were three big challenges we faced:</p>
+
+            <ul>
+              <li>Wearing many hats in a short time frame: acting as a PM, a UX designer and researcher</li>
+
+            <li>Defining the MVP for a service where everything seemed to be a "must have"</li>
+              
+            <li>Pushing for V2 in an environment that never dedicates time for iteration</li>
+			</ul>
+			
+            <h4>My Role</h4>
+
+            <ul>
+              <li>Conducting research to understand customer needs</li>
+
+              <li>Organizing brainstorming sessions and collaborating with other teams from AWS</li>
+
+              <li>Prioritizing user stories and defining the road map</li>
+
+              <li>Creating high fidelity prototypes</li>
+
+              <li>Conducting usability testing</li>
+              
+              <li>Collecting and analyzing feedback and preparing for V2 </li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="outer colored row justify-content-md-center">
+          <div class="col-md-6">
+            <h5>The approach</h5>
+
+            <h3>Concept testing to understand user needs</h3>
+
+            <p>I only had two weeks to do exploratory research so I used the competitor experience and adjusted it to our environment to quickly test the concept and understand what features were important to our customers. Since we were doing this view for EC2 instances which is another service in AWS, I reached out to that team early to gather past research and understand what customers needed in terms of monitoring. The researcher from that team also helped me recruit the right customers. I created low fidelity Balsamiq mocks and prepared the interview script. I wanted to learn more about how customers solve the problem today but also get some quick feedback on the conceptual designs. Talking to customers opened some new ideas and I was able to get a lot of insights and understand more about the core problem. I also learned about some competitors features that didn't make sense for our customers and some other ones they really needed:</p>
+			
+			
+            <ul>
+              <li>Customers didn't find it useful to resize the nodes based on another dimension. The visual representation was too confusing for them so we opted in for sorting instead</li>
+
+            <li>Customers had their own meaning of healthy, so we wanted to give them the ability to set up their own thresholds and choose their own colors to represent those</li>
+              
+            <li>Customers wanted an easy access to additional information so we chose to provide quick glimpse of main details on hover </li>
+			</ul>
+            
+          </div>
+          
+         <div class="row col-md-12"></div>
+         <div class="col-md-6">
+          <h4>Sharing research results</h4>
+            <p> 
+                I put together a research report with learnings including some customer quotes and quick video snippets. I usually involve stakeholders in the customer calls but this time everybody was on other projects so I needed to find a way to help stakeholders empathize better with the customers and quotes and videos really helped there. I presented the findings to product and development teams as well as EC2 team in order to get their buy in to explore different concepts rather than fix on one solution that worked well for the competitor. I got support to continue exploring different options that were more in line with what our customers wanted and needed, but was again given a tight deadline as the development team wanted to start as soon as possible.
+             </p>
+             <p>
+              <h5>Defining user journey and brainstorming with the team</h5>
+                <p>
+                Research Insights helped me put together a quick user journey as well and it was clear that the user's starting point was not CloudWatch at all but EC2 service and there were many other touch points with different services within CloudWatch as well so I realized I'd need to map these out to ensure we link between those services and embed the information where needed.
+                </p>
+				<p>
+				With research insights and high level user journey in place I got the team together to start brainstorming. Everybody was already familiar with the competitor solution but all the insights gathered really helped us think outside of the box and consider different options. I involved the EC2 team in the brainstorming sessions as well to get more insights about the service itself and understand their point of view. I prepared, facilitated and participated in those sessions. We did crazy 8s and then split into multiple groups to work on a more final solution out of all the quick ideas. In the end we voted on the ideas we felt were the strongest ones. I chose a decider who was listening to the reasoning behind the votes and was in charge to pick the direction based on all the information he got from the rest of the team. The most innovative idea was the "smart recommendation" that would suggest to the user how to group their EC2 instances so that they can correlate the issues more quickly. 
+				</p>
+                <h5>Prioritizing the user stories and feasibility check</h5>
+             <p>
+              We had a lot of ideas on the table with varying levels of feasibility. The team was already behind on some other projects so we really needed to scope this one down into the most basic but still meaningful MVP. I got together with the team and decided to play some monopoly. Each stakeholder was given the same amount of money and they were asked to buy the features they really wanted to have. I included all the features, starting from the most basic ones to very challenging ones to understand first what we felt was the most important and to help us draw the line. Because of the time constraints, I couldn't reach out to external customers but I included 5 internal customers into this workshop and gave them twice as much money so their "votes" counted more.
+                </p>
+                  <h5>Creating a road map</h5>
+             <p>
+                The above exercise helped us narrow down and prioritize ideas but we still didn't want to lose sight of all the ideas we had and we wanted to make sure we build enough stories in each area so that the MVP is still fully usable. Together we build a user story map by defining each area of the product and listing all the ideas we had and drawing the MVP line, but also V1 line and defining what needs more exploration as some ideas were very high level and needed more customer input. This was a great exercise that allowed us to see if we were investing too much into certain area of the product while keeping the other area underdeveloped. MVP needed to be fully usable from the start so even though the team felt really passionate about certain customization options we had to make some trade offs and leave those out. Creating the road map was the most time consuming part of this project as it was difficult to get everyone to agree on the MVP scope. With limited resources we need to make a lot of trade offs so we had several meetings to discuss and iterate. The most proud moment for me was when one of the team members was bringing up a customer quote from research presentation while advocating for a particular feature.
+                </p>
+        </div>
+						      <div class="row col-md-12"></div>
+            <div class="col-md-12 image-holder">
+                <div class="img-small"><img class="img-fluid" src="img/cw-user-journey.jpg" />
+                <p class="image-caption">user journey mapping</p></div></div>
+                 <div class="row col-md-12"></div>               
+             <div class="col-md-6">
+          <h4>Creating high fidelity prototypes, usability testing and preparing functional doc</h4>
+          <p>I was working on high fidelity designs in parallel with the road map discussions. This sped up the process a lot and allowed me to include more features in the design than what we were planning to build in the first phase. I wanted to do the usability testing sessions on more complete designs so that I don't have to do it twice. This time the team was asking me about usability testing sessions and wanted to shadow and even though we were under a lot of time pressure they encouraged me to take my time with the testing because they could do some backend work in the meantime. During usability testing sessions I got some ideas for improvement which we addressed in the final design:
+          </p>
+           <ul>
+              <li>users didn't see the settings page so I made it more accessible and easily discoverable</li>
+
+            <li>uses with too many instances were not happy with the limitations so we made sure to include a quick breakdown of thresholds </li>
+              
+            <li>users couldn't figure out how to get to the dashboard page so we made that CTA more prominent and clear</li>
+			</ul>
+			<p>
+			I put together a functional doc detailing all the edge cases and different scenarios and behavior in each to make it easier for the development team. I offered support during implementation to answer questions and review the implemented UI to make sure everything is pixel perfect. I also defined client metrics (clicks to track in the UI) and together with the PM we defined success metrics. We decided to use the adoption rate as our main KPI.
+			</p>
+                  </div>
+<div class="row col-md-12"></div>
+            <div class="col-md-12 image-holder">
+                <div class="img-small"><img class="img-fluid" src="img/cw-timelines.jpg" />
+                <p class="image-caption">high level timeline to generate engagement</p></div></div>
+
+    
+                
+      
+        <div class="outer row justify-content-md-center">
+            
+          <div class="col-md-6">
+            <h5>Final results</h5>
+
+            <h3>Analyzing feedback and defining V2</h3>
+
+            <p>
+			We first released the MVP to several beta customers - those were internal customers we were working with who were excited to try this out and provide additional feedback. Feedback was positive and besides big feature requests on the things we knew were missing, we didn't get any blockers. After a month in beta, we decided to fully release our MVP. We kept track of feedback that was coming in through the tool and kept an eye on the metrics and adoption rate. During the first month the adoption rate was already high (10k active customers) and most of them were coming from EC2 (where we in the end embedded the entire heatmap that was serving as an entry point to our service). We didn't receive any negative feedback after launch but there were just few feedback items overall, so I decided to send out a survey to gather additional feedback. In parallel I started preparing for another round of customer calls to dive deeper into those features we knew were missing but were just too big and too ambiguous for our MVP. Development of some of these additional features is currently in progress.
+			</p>
+			
+			<p>I also brought the heatmap to design system team to include it in their library. 
+			</p>
+            <h4>Key Learnings and Takeaways</h4>
+                <ul>
+                 <li> Overlooking the entire project and having the ownership really helps understand all the details and be in charge </li>
+ <li> Collaborating with other teams is always good even with challenges that dealing bigger team always has </li>
+ <li> Get the team excited about working together and involve the same set of stakeholders regularly (we had weekly meetings) </li>
+ <li> Validate and iterate again and again based on customer feedback  </li>
+ <li> Spending more time early one means less ambiguity later on in the project  </li>
+<li> Bringing back to the community is a long and tedious process but a very rewarding one </li>
+                </ul>
+          </div>
+        </div>
+        <div class="outer colored next-project justify-content-md-center row">
+          <div class="row col-md-8">
+            <div class="col-md-6"><span><strong>Up next:</strong> Challenges with creating a product form scratch with the help of personas and user journey maps.</span></div>
+            <div class="text-right col-md-6"><a href="clm.html">Contract Life Cycle Management (CLM) &nbsp;&#8594;</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer row">
+      <div class="col-md-8">
+        <ul class="menu-items clearfix col-md-12">
+          <li><a href="index.html">MJ</a></li>
+
+          <li><a href="projects.html">Projects</a></li>
+
+          <li><a href="about-me.html">About</a></li>
+
+          <li><a href="contact-me.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity=
+  "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin=
+  "anonymous" type="text/javascript">
+</script><script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity=
+"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin=
+"anonymous" type="text/javascript">
+</script><script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity=
+"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin=
+"anonymous" type="text/javascript">
+</script>
+</body>
+</html>
