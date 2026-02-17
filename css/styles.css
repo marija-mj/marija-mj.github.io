@@ -116,6 +116,13 @@ p {
 .header img {
     max-height: 450px;
 }
+
+.header li {
+  text-align: left;
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+
 .hero {
 	color: #F3F5F6;
 	text-align: center;
@@ -236,7 +243,7 @@ img.margin-right {
     line-height: 1.4em;
 }
 .outer {
-	padding: 104px 0px 104px 0px;
+	padding: 46px 0px 46px 0px;
 }
 .outer.colored {
 	background-color: #F4F6F7;
